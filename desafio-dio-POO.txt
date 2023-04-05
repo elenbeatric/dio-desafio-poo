@@ -1,11 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+#Segue abaixo um exemplo simples de programa que utiliza Programação Orientada a Objetos em Java. O programa cria uma classe chamada "Aluno" que possui as propriedades nome e idade, e um método que imprime as informações do aluno na tela.
+
+arduino
+
+public class Aluno {
+    private String nome;
+    private int idade;
+    
+    public Aluno(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+    
+    public void imprimeInfo() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+    }
+    
+    public static void main(String[] args) {
+        Aluno aluno1 = new Aluno("João", 20);
+        Aluno aluno2 = new Aluno("Maria", 22);
+        
+        aluno1.imprimeInfo();
+        aluno2.imprimeInfo();
+    }
+}
+
+Explicação do código:
+
+    A classe Aluno é definida com as propriedades nome e idade, ambas privadas para garantir o encapsulamento dos dados.
+    O construtor da classe é utilizado para inicializar as propriedades do objeto no momento de sua criação.
+    O método "imprimeInfo" é definido para imprimir as informações do aluno na tela.
+    No método main, são criados dois objetos da classe Aluno, cada um com suas próprias informações.
+    Por fim, é chamado o método "imprimeInfo" para cada objeto, imprimindo suas informações na tela.
+
+Este é apenas um exemplo simples para ilustrar o uso de POO em Java. Em um programa mais complexo, é comum utilizar várias classes e interfaces para organizar melhor o código e facilitar a manutenção.
