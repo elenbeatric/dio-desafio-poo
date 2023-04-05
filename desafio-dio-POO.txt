@@ -1,7 +1,3 @@
-#Segue abaixo um exemplo simples de programa que utiliza Programação Orientada a Objetos em Java. O programa cria uma classe chamada "Aluno" que possui as propriedades nome e idade, e um método que imprime as informações do aluno na tela.
-
-arduino
-
 public class Aluno {
     private String nome;
     private int idade;
@@ -24,13 +20,3 @@ public class Aluno {
         aluno2.imprimeInfo();
     }
 }
-
-Explicação do código:
-
-    A classe Aluno é definida com as propriedades nome e idade, ambas privadas para garantir o encapsulamento dos dados.
-    O construtor da classe é utilizado para inicializar as propriedades do objeto no momento de sua criação.
-    O método "imprimeInfo" é definido para imprimir as informações do aluno na tela.
-    No método main, são criados dois objetos da classe Aluno, cada um com suas próprias informações.
-    Por fim, é chamado o método "imprimeInfo" para cada objeto, imprimindo suas informações na tela.
-
-Este é apenas um exemplo simples para ilustrar o uso de POO em Java. Em um programa mais complexo, é comum utilizar várias classes e interfaces para organizar melhor o código e facilitar a manutenção.
